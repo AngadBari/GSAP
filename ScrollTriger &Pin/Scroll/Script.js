@@ -8,7 +8,6 @@ gsap.from("#page1 #box", {
     trigger: "#page1 #box",
     scroller: "body",
     markers: true,
-    scrub: 1,
   },
 });
 
@@ -45,5 +44,17 @@ gsap.from("#page2 h2", {
     scroller: "body",
     markers: true,
     start: "toop 50%",
+  },
+});
+
+gsap.from("#page3 #box", {
+  scale: 0,
+  duration: 2,
+  rotate: 360,
+  scrollTrigger: {
+    trigger: "#page3 #box",
+    scroller: "body",
+    markers: true,
+    scrub: 1,
   },
 });
