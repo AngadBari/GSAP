@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: black;
+  font-family: monospace;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(32, 109, 135);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(7, 92, 120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box {
+  height: 200px;
+  width: 200px;
+  background: red;
+}
+
+h1 {
+  background-color: red;
+  font-size: 60px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+h2 {
+  background-color: yellow;
+  font-size: 60px;
+  padding: 15px;
+  border-radius: 20px;
+}
