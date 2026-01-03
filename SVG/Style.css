@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
+
+#string {
+  color: white;
+  height: 200px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+/* svg {
+  background-color: orange;
+} */
